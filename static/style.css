@@ -1,0 +1,18 @@
+body {
+    background-color: lightblue;
+}
+.container-div{
+    text-align:center
+}
+.container-div-aa{
+    text-align:initial
+}
+
+.p1{
+    color:blue;
+    font-size:40px;
+}
+
+.p2 {
+    font-size: 20px;
+}
