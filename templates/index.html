@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Fedu App Bigliettini</title>
+    <link rel="stylesheet" href='/static/style.css' />
+</head>
+<body>
+    <h1>Carica file:</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <p><input type="file" name="file"></p>
+        <p><input type="submit" value="Submit"></p>
+    </form>
+    <div class="container-div">
+        <form action="/generate" enctype="multipart/form-data">
+            <p><input type="submit" value="GENERATE QUESTION"></p>
+            <p class="p1">{{ data }}</p>
+        </form>
+
+    </div>
+    <h1>Domande risposte:</h1>
+    <div class="container-div-aa">
+        <form action="/generate" enctype="multipart/form-data">
+            <p class="p2">{{ aa }}</p>
+        </form>
+    </div>
+</body>
+</html>
