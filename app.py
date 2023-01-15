@@ -67,8 +67,3 @@ def checkAA(q):
         q = random.choice(data)
     already_ans.append(q)
     return q
-
-
-
-if (__name__ == "__main__"):
-     app.run(port = 5000)
